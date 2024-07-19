@@ -1,0 +1,401 @@
+*{ 
+     
+    padding: 0;
+    margin: 0;
+}
+
+/* styling for nav-bar */
+* {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .nav-item{
+    color: black;
+  }
+  .container-fluid ul li a{
+    color: rgb(85, 82, 82);
+  }
+  .navbar-brand-1{
+    color: #336699;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+  }
+
+
+.hype{
+    padding: 15px;
+    border: 1px ridge;
+
+}
+.hype-1::placeholder{
+  position: relative;
+  left: 20px;
+  border: none;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+ .nav-link ul li{
+    color: black;
+}
+.navbar-brand{
+    color: black;
+}
+
+
+/* base styling */
+
+.carousel-inner::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.627);
+  z-index: 1;
+}
+
+.carousel-caption{
+  position: relative;
+  z-index: 3;
+}
+.carousel-caption h5{
+font-size: 45px;
+font-weight: bold;
+letter-spacing: 2px;
+position: relative;
+top: -500px;
+right: 200px;
+}
+
+.carousel-item p{
+  font-size: 20px;
+  position: relative;
+  top: -470px;
+  letter-spacing: 1px;
+  right: 200px;
+  color: white;
+  
+}
+
+.front{
+  background-color: #336699;
+  border: none;
+  padding: 15px;
+  color: white;
+  position: relative;
+  top: -450px;
+  letter-spacing: 2px;
+  right: 240px;
+}
+
+/* dropdown */
+
+.wrape{
+  padding: 10px;
+  
+}
+
+
+/* dropdown styling */
+
+.floor{
+  background-color:white;
+  position: relative;
+  left: 230px;
+  width: 60%;
+  height: 20vh;
+  top: -50px;
+  box-shadow:1px 1px 1px 1px #dedcdc;
+  z-index: 3;
+}
+
+.num{
+  background-color: #336699;
+  border: none;
+  padding: 15px;
+  margin-top: 30px;
+  position: relative;
+  left: 20px;
+  color: white;
+  
+}
+#MONO-1{
+  border: 2px ridge rgb(65, 64, 64);
+  padding: 9px;
+  font-size: 15px;
+}
+.nani{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+
+/* next styling */
+
+.jone{
+  border-radius: 10px;
+}
+.lone{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#kone{
+margin-top: 100px;
+}
+
+.house-1{
+  padding: 50px;
+  
+}
+
+.down{
+  margin-top: 50px;
+}
+
+.filed{
+  background-color: #336699;
+}
+
+.home{
+  text-align: center;
+  position: relative;
+  left: 300px;
+  margin-top: 20px;
+}
+
+.home-1{
+  text-align: center;
+  position: relative;
+  left: 450px;
+  margin-top: 20px;
+
+}
+
+.home-2{
+  text-align: center;
+  position: relative;
+  left: 550px;
+  margin-top: 20px;
+
+}
+
+#fix{
+  font-size: 30px;
+}
+
+.home-3{
+  text-align: center;
+  position: relative;
+  left: 650px;
+  margin-top: 20px;
+
+}
+
+
+/* brace styling */
+
+.glide{
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+
+
+/* grace styling */
+.break{
+  padding: 50px ;
+}
+
+.break-1{
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 8px;
+  position: relative;
+  left: 800px;
+  height: 50px;
+  margin-top: 30px;
+  
+  
+}
+
+.break-2{
+  font-size: 25px;
+  border: none;
+  padding: 8px;
+  position: relative;
+  left: 820px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #336699;
+  color: white;
+
+}
+
+/* donald styling */
+
+.donald{
+  background-color: #336699;
+}
+
+.flant{
+  padding: 60px;
+  position: relative;
+  left: 50px;
+  
+}
+
+.light{
+  background-color: white;
+  height: 35vh;
+}
+
+.light p{
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+  padding: 10px;
+}
+
+.gun{
+  padding: 5px;
+  background-color: #336699;
+  border: none;
+  color: white;
+  margin: 15px;
+}
+
+/* different styling */
+
+.mind{
+  background-color: #336699;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  top: 5px;
+}
+
+.gam{
+  background-color: #336699;
+  border: none;
+  padding: 7px;
+  color: white;
+  position: relative;
+  right: 15px;
+}
+
+.silk{
+  padding: 30px;
+  margin: 20px;
+  margin-top: 20px;
+}
+#kon{
+  margin-top: 50px;
+  position: relative;
+  left: 80px;
+}
+
+.min{
+  background-color: #336699;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+#kun{
+  color: #336699;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.hike{
+  border: 1px solid #336699;
+  padding: 20px;
+  margin: 20px;
+  width: 40%;
+  height: 80vh;
+}
+
+.nik{
+  background-color: #336699;
+  border: none;
+  width: 79%;
+  padding: 10px;
+  color: white;
+}
+.gik{
+  border: 2px solid #336699;
+  height: 7vh;
+}
+.gik::placeholder{
+  position: relative;
+  left: 10px;
+}
+.bon{
+  border: 2px solid #336699;
+  
+}
+
+.bon::placeholder{
+  position: relative;
+  left: 15px;
+  font-size: 15px;
+}
+
+.mik{
+  border: 1px solid #336699;
+}
+.mik::placeholder{
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.xilk{
+  color: #336699;
+}
+.zilk{
+  color: black;
+  padding: 10px;
+}
+
+.cilk{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.zana{
+  position: relative;
+  padding: 10px;
+  left: 100px;
+}
+
+
+.zana-1{
+  position: relative;
+  padding: 10px;
+  left: 120px;
+}
+
+.zana-2{
+  position: relative;
+  padding: 10px;
+  left: 140px;
+}
+
+.flies{
+  position: relative;
+  right: 20px;
+  padding: 10px;
+}
