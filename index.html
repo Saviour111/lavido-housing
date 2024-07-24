@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -29,17 +30,8 @@
           <li class="nav-item">
             <a class="nav-link mt-2" href="about.html">Services</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link mt-2" href="courses.html">Sell</a>
-          </li>   <li class="nav-item">
-            <a class="nav-link mt-2" href="services.html">Buy</a>
-          </li>   <li class="nav-item">
-            <a class="nav-link mt-2" href="jobs.html">Rent</a>
-          </li>   <li class="nav-item">
-            <a class="nav-link mt-2" href="contact.html">Blog</a>
-          </li>
         </li>   <li class="nav-item">
-          <a class="nav-link mt-2" href="contact.html">About us</a>
+          <a class="nav-link mt-2" href="About.html">About us</a>
         </li>
       </li>   <li class="nav-item">
         <a class="nav-link mt-2" href="contact.html">Properties</a>
@@ -114,114 +106,148 @@
 
       <!-- drop-down -->
 
-      <section class="floor text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-<div class="btn-group">
-  <div>
-    <h5 class="mt-3">Look For Overdue Properties</h5>
-  <button class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="MONO-1">
-    Location
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="" class="nani">Eneka</a></li>
-    <li><a href="" class="nani">Rumuomasi</a></li>
-    <li><a href="" class="nani">Igritali</a></li>
-    <li><a href="" class="nani">Rumuodara</a></li>
-    <li><a href="" class="nani">Airforce</a></li>
-  </ul>
-</div>
-<div class="btn-group mt-5 fs-2" >
-  <button class="btn  btn-lg" type="button" id="MONO-1">
-  Property Type
-  </button>
-  <button type="button" class="btn btn-lg  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" >
-    <span class="visually-hidden" >Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="" class="nani">Self-Contain</a></li>
-    <li><a href="" class="nani">Duplex</a></li>
-    <li><a href="" class="nani">Room and palor</a></li>
-  </ul>
-</div>
-<div class="btn-group">
-  <button class="btn mt-5" type="button" id="MONO-1">
-    Budget
-  </button>
-  <button type="button" class="btn mt-5 dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" >
-    <span class="visually-hidden">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="" class="nani">$80</a></li>
-    <li><a href="" class="nani">$150</a></li>
-    <li><a href="" class="nani">$250</a></li>
-    <li><a href="" class="nani">$400</a></li>
-  </ul>
-  <button class="num">search now</button>
-</div>
-</div>
+      <main class="section-padding text-center">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="floor">
+
+              <div class="btn-group">
+                <div>
+                  <h5 class="mt-3">Look For Overdue Properties</h5>
+                <button class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="MONO-1">
+                  Location
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="" class="nani">Eneka</a></li>
+                  <li><a href="" class="nani">Rumuomasi</a></li>
+                  <li><a href="" class="nani">Igritali</a></li>
+                  <li><a href="" class="nani">Rumuodara</a></li>
+                  <li><a href="" class="nani">Airforce</a></li>
+                </ul>
+              </div>
+              <div class="btn-group mt-5 fs-2" >
+                <button class="btn  btn-lg" type="button" id="MONO-1">
+                Property Type
+                </button>
+                <button type="button" class="btn btn-lg  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" >
+                  <span class="visually-hidden" >Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="" class="nani">Self-Contain</a></li>
+                  <li><a href="" class="nani">Duplex</a></li>
+                  <li><a href="" class="nani">Room and palor</a></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button class="btn mt-5" type="button" id="MONO-1">
+                  Budget
+                </button>
+                <button type="button" class="btn mt-5 dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="" class="nani">$80</a></li>
+                  <li><a href="" class="nani">$150</a></li>
+                  <li><a href="" class="nani">$250</a></li>
+                  <li><a href="" class="nani">$400</a></li>
+                </ul>
+                <button class="num">search now</button>
+       
             </div>
+
           </div>
         </div>
-      </section>
+      </div>
+        </div>
+      </main>
 
       <section class="section-padding" id="kone">
 
-      
-            <div class="d-flex">
-              <div class="house-1">
-                <img src="two housing.jpg" height="240px" alt="" class="jone"> <span><img src="two housing.jpg" height="240px" alt="" class="jone"></span> <br>
-                <img src="two housing.jpg" height="240px" alt="" class="lone"> <span><img src="two housing.jpg" height="240px" alt="" class="lone"></span>
-              </div>
-              <div class="down">
-                <p>About us</p>
-                <h3>While you should choose us</h3>
-                <br>
-                <h5> <i class="bi bi-device-ssd-fill"></i> Budget Friendly</h5>
-                <p>There are many variations of passages of <br>
-                  houses for you available
-                </p>
-                <br>
-                <h5> <i class="bi bi-geo-alt-fill"></i> Location</h5>
-                <p>There are many variations of passages of <br>
-                  houses available for you
-                </p>
-                <br>
-                <h5><i class="bi bi-pass-fill"></i> Trusted By thousand</h5>
-                <p>There are many variations of passages of <br>
-                  houses available for you</p>
-              </div>
-              
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div style="margin-top: 20px;">
+              <img src="fock.jpg" height="210px" alt="">
+              <br>
+              <br>
+              <br>
+              <img src="mock.jpg" height="200px" alt=""> 
+          </div>
             </div>
+          <div class="col-12 col-lg-4">
+            <div style="margin-top: 20px;"> 
+            <img src="lock.jpg" height="209px" alt=""> 
+            <br>
+            <br>
+            <br>
+            <img src="pock.jpg" height="206px" alt="">
+          </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="mx-5 mt-4">
+            <p>About us</p>
+            <h5>While you should choose us</h5>
+            <br>
+            <h5><i class="bi bi-device-ssd-fill"></i> Budget Friendly</h5>
+           <p>There are many variations of passages of <br>
+           houses for you available
+            </p>
+            <br>
+            <h5> <i class="bi bi-geo-alt-fill"></i> Location</h5>
+      <p>There are many variations of passages of <br>
+        houses available for you
+      </p>
+      <br>
+      <h5><i class="bi bi-pass-fill"></i> Trusted By thousand</h5>
+      <p>There are many variations of passages of <br>
+        houses available for you</p>
+    </div>
+          </div>
+        </div>
+
+        </div>
+      
+           
 
       </section>
 
       <!-- nested styling -->
       <section class="section-padding text-white text-center " id="kone">
         <fieldset class="filed">
-          <div class="d-flex">
-            <div class="home">
-              <i class="bi bi-bank2" id="fix"></i>
-              <h5>000+</h5>
-              <p>randomised</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <div class="mt-3">
+                <i class="bi bi-bank2" id="fix"></i>
+                <h5>000+</h5>
+                <p>randomised</p>
+              </div>
             </div>
-            <div class="home-1">
-              <i class="bi bi-bank2" id="fix"></i>
-              <h5>000+</h5>
-              <p>randomised</p>
+            <div class="col-12 col-lg-3">
+              <div class="mt-3">
+                <i class="bi bi-bank2" id="fix"></i>
+             <h5>000+</h5>
+             <p>randomised</p>
+              </div>
             </div>
-            <div class="home-2">
-              <i class="bi bi-bank2" id="fix"></i>
-              <h5>000+</h5>
-              <p>randomised</p>
-            </div>
-            <div class="home-3">
-              <i class="bi bi-bank2" id="fix"></i>
-              <h5>000+</h5>
-              <p>randomised</p>
-            </div>
+            <div class="col-12 col-lg-3">
+              <div class="mt-3">
+                <i class="bi bi-bank2" id="fix"></i>
+                <h5>000+</h5>
+                <p>randomised</p>
+              </div>
           </div>
+          <div class="col-12 col-lg-3">
+            <div class="mt-3">
+              <i class="bi bi-bank2" id="fix"></i>
+              <h5>000+</h5>
+              <p>randomised</p>
+            </div>
+        </div>
+          </div>
+        </div>
 
         </fieldset>
       </section>
@@ -229,176 +255,227 @@
       <!-- brace -->
 
       <section class="section-padding text-center"  id="kone">
-        <h5>PROPERTIES</h5>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h5>PROPERTIES</h5>
+            </div>
+          </div>
+        </div>
       </section>
       <br>
 
       <section class="section-padding text-center">
         
-        <h3 class="glide">Our Properties Are <br>
-          Available For You
-        </h2>
-        <p>There are many variations of passages of lorem <br>
-          Branches available but the majority have suffered <br>
-          Alternation in home farm by
-        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3>Our Properties Are <br>
+                Available For You
+              </h2>
+              <p>There are many variations of passages of lorem <br>
+                Branches available but the majority have suffered <br>
+                Alternation in home farm by
+              </p>
+
+            </div>
+          </div>
+        </div>
 
       </section>
 
       <!-- grace -->
 
-
-      <section class="section-padding mt-5">
-        <div class="d-flex">
-          <div class="break">
-            <h4>Properties</h4>
-          </div>
-          <div class="break-1">
-            <p><i class="bi bi-arrow-left"></i></p>
-          </div>
-          <div class="break-2">
-            <p><i class="bi bi-arrow-right"></i></p>
+      <section style="position: relative;top: 150px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10">
+              <div class="mt-3">
+                <h3>Properties</h3>
+              </div>
+            </div>
+            <div class="col-12 col-lg-1">
+              <p class="break-1 mt-3"><i class="bi bi-arrow-left"></i></p></p>
+            </div>
+            <div class="col-12 col-lg-1">
+              <p class="break-2 mt-3"><i class="bi bi-arrow-right" style="font-size: 20px;"></i></p>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- housing -->
 
-      <section class="section-padding mt-2">
-        <fieldset class="donald">
-          <div class="d-flex">
-            <div class="flant">
-              <img src="two housing.jpg" height="180px" alt="">
-              <div class="light">
-                <p> <i class="bi bi-geo-alt-fill"></i>   Rumuodara, Port Harcourt</p>
-                <p> <i class="bi bi-house-dash-fill"></i> 4 bed <span><i class="bi bi-book"></i> 12 by 12 m</span> <span><i class="bi bi-truck-flatbed"></i>200 m</span></p>
-                <button class="gun">Book now</button> <span>$14,000</span>
-              </div>
-            </div>
-            <div class="flant">
-              <img src="two housing.jpg" height="180px" alt="">
-              <div class="light">
-                <p> <i class="bi bi-geo-alt-fill"></i>   Rumuodara, Port Harcourt</p>
-                <p> <i class="bi bi-house-dash-fill"></i> 4 bed <span><i class="bi bi-book"></i> 12 by 12 m</span> <span><i class="bi bi-truck-flatbed"></i>200 m</span></p>
-                <button class="gun">Book now</button> <span>$14,000</span>
-              </div>
-            </div>
-            <div class="flant">
-              <img src="two housing.jpg" height="180px" alt="">
-              <div class="light">
-                <p> <i class="bi bi-geo-alt-fill"></i>   Rumuodara, Port Harcourt</p>
-                <p> <i class="bi bi-house-dash-fill"></i> 4 bed <span><i class="bi bi-book"></i> 12 by 12 m</span> <span><i class="bi bi-truck-flatbed"></i>200 m</span></p>
-                <button class="gun">Book now</button> <span>$14,000</span>
-              </div>
-              
+      <section class="section-padding text-center" style="padding: 25px; background-color: #336699;margin-top: 150px;">
 
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="mt-5">
+              <img src="cock.jpg" height="" alt="" class="img-fluid">
+              <main style="background-color: white;">
+                <p><i class="bi bi-geo-alt-fill"></i>Rumuodara, Port Harcourt</p>
+                <p> <i class="bi bi-house-dash-fill"></i> 4 bed <span><i class="bi bi-book"></i> 12 by 12 m</span> <span><i class="bi bi-truck-flatbed"></i>200 m</span></p>
+                <button class="gun">Book now</button> <span class="gun-1">$14,000</span>
+               </main>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="mt-5">
+                <img src="cock.jpg" height="" alt="" class="img-fluid">
+                <main style="background-color: white;">
+                  <p><i class="bi bi-geo-alt-fill"></i>Rumuodara, Port Harcourt</p>
+                  <p> <i class="bi bi-house-dash-fill"></i> 4 bed <span><i class="bi bi-book"></i> 12 by 12 m</span> <span><i class="bi bi-truck-flatbed"></i>200 m</span></p>
+                  <button class="gun">Book now</button> <span class="gun-1">$14,000</span>
+                 </main>
+              </div>
+            </div>
+                 <div class="col-12 col-lg-4">
+                  <div class="mt-5">
+                    <img src="cock.jpg" height="" alt="" class="img-fluid">
+                    <main style="background-color: white;">
+                      <p><i class="bi bi-geo-alt-fill"></i>Rumuodara, Port Harcourt</p>
+                      <p> <i class="bi bi-house-dash-fill"></i> 4 bed <span><i class="bi bi-book"></i> 12 by 12 m</span> <span><i class="bi bi-truck-flatbed"></i>200 m</span></p>
+                      <button class="gun">Book now</button> <span class="gun-1">$14,000</span>
+                     </main>
+
+                 </div>
+
+            </div>
           </div>
-
-        </fieldset>
-
+        </div>
+        
       </section>
 
 
       <!-- different -->
 
-      <section class="section-padding text-center" id="kon">
-        <div class="d-flex">
-          <div>
-            <p>Our services</p>
-            <h3>We Offer Best Services <br> To Our Client
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati <br>
-              Lorem ipsum dolor sit amet consectetur
-            </p>
-            <button class="mind"></button> <span>Where can i get</span>
-            <br>
-            <br>
-            <button class="mind"></button> <span>Where can i get</span>
-            <br>
-            <br>
-            <button class="mind"></button> <span>Where can i get</span>
-           <br>
-           <br>
-           <button class="mind"></button> <span>Where can i get</span> <br>
-           <br>
-           <button class="gam">Read more</button>
-
-          </div>
-          <div class="silk">
-            <img src="two housing.jpg" height="350px" alt="">
+      <section class="section-padding text-center" style="padding-top: 100px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div style="margin-top: 50px;">
+                <p>Our services</p>
+      <h3>We Offer Best Services <br> To Our Client
+      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati <br>
+        Lorem ipsum dolor sit amet consectetur
+      </p>
+      <button class="mind"></button> <span>Where can i get</span>
+      <br>
+      <br>
+      <button class="mind"></button> <span>Where can i get</span>
+      <br>
+      <br>
+      <button class="mind"></button> <span>Where can i get</span>
+     <br>
+     <br>
+     <button class="mind"></button> <span>Where can i get</span> <br>
+     <br>
+     <button class="gam">Read more</button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="mt-4" style="padding-top: 50px;">
+                <img src="nock.jpg" height="300px" alt="">
+              </div>
+            </div>
           </div>
         </div>
+      
       </section>
 
 
-      <section class="section-padding text-center" id="kon">
-        <div class="d-flex"> 
-          <div>
-            <p>Contact Us</p>
-            <h3>We Are Always Here To <br>
-              Help Get In Touch With <br>
-              Us Today
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, pariatur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dignissimos?</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button class="min">Contact Us</button> <span style="font-size: 20px; font-weight: bold;"><i class="bi bi-telephone" id="kun"></i> +234 654 439 55</span>
-
-          </div>
-          <div class="hike">
-            <p>Send us your message</p>
-            <input type="text" placeholder="Your name" class="gik">  <input type="email" placeholder="Email Address"  class="gik">
-            <br>
-            <br>
-            <input type="text" placeholder="Location" class="gik">  <input type="text" placeholder="Message Type" class="gik">
-            <br>
-            <br>
-            <textarea name="" id="" cols="40" rows="7" placeholder="Message" class="mik"></textarea>
-            <br>
-            <button class="nik">Submit</button>
+      <section class="soor section-padding text-center" style="padding-top: 100px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div>
+                <p>Contact Us</p>
+                <h3>We Are Always Here To <br>
+                  Help Get In Touch With <br>
+                  Us Today
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, pariatur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dignissimos?</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button class="min">Contact Us</button> <span style="font-size: 20px; font-weight: bold;"><i class="bi bi-telephone" id="kun"></i> +234 654 439 55</span>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6" style="margin-top: 20px;">
+              <div class="hike-1 mt-3" style="margin-top: 20px;">
+                <p>Send us your message</p>
+    <input type="text" placeholder="Your name" class="gik">  <input type="email" placeholder="Email Address"  class="gik">
+    <br>
+    <br>
+    <input type="text" placeholder="Location" class="gik">  <input type="text" placeholder="Message Type" class="gik">
+    <br>
+    <br>
+    <textarea name="" id="" cols="40" rows="7" placeholder="Message" class="mik"></textarea>
+    <br>
+    <button class="nik">Submit</button>
+  </div>
+</div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+         
 
-
-
-      <section class="section-padding text-center" id="kon">
-        <div class="d-flex">
-          <div>
-            <h5 class="xilk">Lavido Housing <span class="zilk">Subscribe</span></h5>
-          
-            <p class="cilk">Subscribe For Update</p>
-            <br>
-            <input type="email" placeholder="Your Email" class="bon">
-            <p class="flies"><i class="bi bi-google" style="color: #336699;"></i>
-              <i class="bi bi-twitter mx-1" style="color: #336699;"></i>
-              <i class="bi bi-facebook mx-1" style="color: #336699;"></i>
-              <i class="bi bi-whatsapp mx-1" style="color: #336699;"></i>
-            </p>
-          </div>
-          <div class="zana">
-            <h3>Quick Links</h3>
-            <p>About Us</p>
-            <p>Services</p>
-            <p>About Us</p>
-            <p>Previous</p>
-          </div>
-          <div class="zana-1">
-            <h3>Services</h3>
-            <p>Home Type</p>
-            <p>Contact Support</p>
-            <p>Help Center</p>
-            <p>FAQS</p>
-          </div>
-          <div class="zana-2">
-            <h3>Contact</h3>
+      <section class="soor section-padding text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <div>
+                        <p >Lavido Housing <span>Subscribe</span></p>
+                        <h5 style="font-weight: bold;">Subscribe For Update</h5>
+                        <input type="text" placeholder="your e-mail" class="bon">
+                        <p class="flies"> 
+                            <i class="bi bi-google" style="color: #336699;"></i>
+                            <i class="bi bi-twitter mx-1" style="color: #336699;"></i>
+                            <i class="bi bi-facebook mx-1" style="color: #336699;"></i>
+                            <i class="bi bi-whatsapp mx-1" style="color: #336699;"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <p>About Us</p>
+                        <p>Services</p>
+                        <p>About Us</p>
+                        <p>Previous</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div>
+                        <h3>Services</h3>
+                        <p>Home Type</p>
+                        <p>Contact Support</p>
+                        <p>Help Center</p>
+                        <p>FAQS</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div>
+                        <h3>Contact</h3>
             <p>Phone +234 765 592</p>
-            <p>Email Saviour79@gmail.com</p>
+            <p style="font-weight: bold;">Email Saviour79@gmail.com</p>
             <p>Home Type</p>
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+     </section>
+
+      
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

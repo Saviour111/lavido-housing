@@ -110,10 +110,9 @@ right: 200px;
 .floor{
   background-color:white;
   position: relative;
-  left: 230px;
-  width: 60%;
-  height: 20vh;
+  height: 25vh;
   top: -50px;
+
   box-shadow:1px 1px 1px 1px #dedcdc;
   z-index: 3;
 }
@@ -124,7 +123,7 @@ right: 200px;
   padding: 15px;
   margin-top: 30px;
   position: relative;
-  left: 20px;
+  
   color: white;
   
 }
@@ -221,10 +220,10 @@ margin-top: 100px;
   font-size: 25px;
   border: 1px solid black;
   padding: 8px;
-  position: relative;
-  left: 800px;
-  height: 50px;
-  margin-top: 30px;
+  background-color: white;
+  width: 60%;
+
+
   
   
 }
@@ -233,12 +232,9 @@ margin-top: 100px;
   font-size: 25px;
   border: none;
   padding: 8px;
-  position: relative;
-  left: 820px;
-  height: 50px;
-  margin-top: 30px;
   background-color: #336699;
   color: white;
+  width: 60%;
 
 }
 
@@ -246,6 +242,8 @@ margin-top: 100px;
 
 .donald{
   background-color: #336699;
+  height: 100vh;
+  margin-top: 100px;
 }
 
 .flant{
@@ -255,6 +253,27 @@ margin-top: 100px;
   
 }
 
+.jinja-1{
+  position: relative;
+  left: 18px;
+  top: 18px;
+}
+
+.jinja{
+  position: relative;
+  left: 18px;
+  top: 20px;
+}
+.gun-1{
+  position: relative;
+  
+}
+
+.gun{
+  position: relative;
+  
+
+}
 .light{
   background-color: white;
   height: 35vh;
@@ -305,6 +324,7 @@ margin-top: 100px;
   margin-top: 50px;
   position: relative;
   left: 80px;
+  padding-top: 100px;
 }
 
 .min{
@@ -318,14 +338,13 @@ margin-top: 100px;
   color: #336699;
   font-size: 20px;
   padding: 10px;
+  
 }
 
-.hike{
+.hike-1{
   border: 1px solid #336699;
-  padding: 20px;
-  margin: 20px;
-  width: 40%;
-  height: 80vh;
+  padding: 14px;
+  
 }
 
 .nik{
@@ -398,4 +417,104 @@ margin-top: 100px;
   position: relative;
   right: 20px;
   padding: 10px;
+}
+
+/* media queries */
+
+
+
+
+
+
+.tello{
+  position: relative;
+  z-index: 3;
+}
+
+.tello h3{
+  position: relative;
+  font-size: 40px;
+  color: white;
+  top: 100px;
+}
+
+
+.tello p{
+  position: relative;
+  font-size: 18px;
+  color: white;
+  top: 110px;
+}
+
+.sello{
+  margin-top: 100px;
+}
+
+.soor{
+  margin-top: 100px;
+}
+
+.aollo{
+  background-color: #336699;
+  padding: 15px;
+  margin-top: 20px;
+
+}
+
+.collo{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  margin-top: 20px;
+}
+
+
+.soor-2{
+  margin-top: 50px;
+}
+.soor-3{
+  margin-top: 50px;
+}
+
+.zoollo{
+  background-color: #336699;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+
+header{
+  background: url(two\ housing.jpg);
+  height: 80vh;
+}
+
+
+header::before{
+  content: ' ';
+  top: 10;
+  left: 0;
+  height: 80%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.527);
+  z-index: 1;
+  position: absolute;
+}
+
+header h3{
+  position: relative;
+  z-index: 3;
+  color: white;
+  padding: 100px;
+  font-size: 40px;
+}
+
+header p{
+  position: relative;
+  z-index: 3;
+  color: white;
+  padding: 40px;
+  font-size: 18px;
+  top: -100px;
+
+
 }
